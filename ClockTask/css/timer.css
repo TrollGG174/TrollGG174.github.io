@@ -1,10 +1,8 @@
-#time-node {
+#show-date{
    padding: 15px;
-   background: #ffffff;
-   color: #000000;
+   background: #000;
+   color: #f00;
    display: inline-block;
    font-weight: bold;
    border-radius: 4px;
-   width: 50px;
-   text-align: center;
 }
