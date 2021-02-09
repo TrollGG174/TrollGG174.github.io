@@ -7,7 +7,7 @@ var timeNode = document.getElementById('time-node');
  
    setInterval(
       function() { 
-         timeNode.innerHTML = getCurrentTimeString(Math.round(Date.now() / 1000) % 2);
+         timeNode.innerHTML = getCurrentTimeString2(Math.round(Date.now() / 1000) % 2);
       },
       1000
    );
