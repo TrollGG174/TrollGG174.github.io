@@ -1,10 +1,13 @@
 var timeNode = document.getElementById('time-node');
  
-   function getCurrentTimeString() {
-      return new Date().toTimeString().replace(/ .*/, '');
+   function getCurrentTimeString2(dots) {
+      var timeString = new Date().toTimeString().replace(/:[0-9]{2,2} .*/, '');
+      return dots ? timeString : timeString.replace(/:/, ' ');
    }
  
    setInterval(
-      () => timeNode.innerHTML = getCurrentTimeString(),
+      function() { 
+         timeNode.innerHTML = getCurrentTimeString(Math.round(Date.now() / 1000) % 2);
+      },
       1000
    );
