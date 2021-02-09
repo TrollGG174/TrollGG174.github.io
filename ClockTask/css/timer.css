@@ -3,6 +3,8 @@
    background: #CCC;
    color: #f00;
    display: inline-block;
+   width: 70px;
+   height: 70px;
    font-weight: bold;
    border-radius: 50px;
 }
