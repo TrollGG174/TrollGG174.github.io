@@ -17,6 +17,12 @@ page Layout css style
 /*------------------------------------------------------------------------------
 Clock css styles
 ------------------------------------------------------------------------------*/
+.text {
+   fill: none;
+    stroke: #000;
+    stroke-width: 12px;
+    stroke-miterlimit: 10; 
+}
 .circle {
     fill: none;
     stroke: #000;
