@@ -30,14 +30,15 @@ function runTheClock() {
   minPosition += 6/60;
   secPosition += 6;
   
-  if((hrPosition % 360) >= (9 * 360 / 12) && (hrPosition % 360) <= (9 * 360 / 12) + (1 / 60)) 
-    alert("Время отчислений");
   if((hrPosition % 360) >= (9 * 360 / 12) && (hrPosition % 360) <= (9 * 360 / 12) + ((1 / 60) * 360 / 12)) 
     alert("Время отчислений");
 
   HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
   MINUTEHAND.style.transform = "rotate(" + minPosition + "deg)";
   SECONDHAND.style.transform = "rotate(" + secPosition + "deg)";
+  
+  if((hrPosition % 360) >= (9 * 360 / 12) && (hrPosition % 360) <= (9 * 360 / 12) + ((1 / 60) * 360 / 12)) 
+    alert("Время отчислений");
 }
 
 // run runTheClock function every second
