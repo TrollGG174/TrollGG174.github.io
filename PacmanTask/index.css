@@ -1,0 +1,23 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.hidden {
+    display: none;
+}
+
+.interstitial-wrapper {
+    font-size: 1em;
+    line-height: 1.55;
+    margin: 0 auto;
+    max-width: 1066;
+    padding: 40px;
+    width: 50%;
+}
+
+#offline-resources {
+    display: none;
+}
