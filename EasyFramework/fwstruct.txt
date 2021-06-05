@@ -1,0 +1,62 @@
+EasyFramework
+
+	-app
+
+		-models
+
+			AccountModel.php
+			EasyModel.php
+			MainModel.php
+
+		-views
+
+			-Account
+
+				login.php
+				register.php
+			-Easy
+
+				way.php
+			-Main
+
+				index.php
+			-layouts
+
+				default.php
+		-controllers
+
+			AccountController.php
+			EasyController.php
+			MainController.php
+		-core
+
+			Controller.php
+			Database.php
+			Model.php
+			View.php
+			Router.php
+	-public
+
+		-css
+		-js
+		-img
+		404.php
+	-config
+
+		accountsecurity.php
+		mainsecurity.php
+		easysecurity.php
+		easyroutes.php
+		easydb.php
+
+	-vendor
+	
+	-bootstrap
+
+	.gitignore
+
+	index.php
+
+	composer.json
+
+	.htaccess
